@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "dfef9510-2daf-4ef9-b871-a1291cb41bbd",
+		"name": "django-1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "modul 1",
+			"item": [
+				{
+					"name": "show get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/mahasiswa/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"mahasiswa",
+								""
+							]
+						},
+						"description": "ini adalah request dengan method get untuk menampilkan data mahasiswa"
+					},
+					"response": []
+				},
+				{
+					"name": "show get Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 3,\r\n    \"nama\": \"Pedro\",\r\n    \"jurusan\": \"Teknik Kimia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/mahasiswa/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"mahasiswa",
+								""
+							]
+						},
+						"description": "ini adalah request dengan method post untuk input data mahasiswa"
+					},
+					"response": []
+				},
+				{
+					"name": "show put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 3,\r\n    \"nama\": \"Andi\",\r\n    \"jurusan\": \"Manajemen Informatika\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/mahasiswa/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"mahasiswa",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show patch",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"jurusan\": \"Teknik Komputer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/mahasiswa/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"mahasiswa",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show put Copy",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"jurusan\": \"Teknik Komputer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/mahasiswa/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"mahasiswa",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
